@@ -18,7 +18,11 @@ import com.xelerate.customer01.be.ent.BeCustomerEnt;
 import com.xelerate.customer01.be.xdm.db.ent.BeCustomerDb;
 import com.xelerate.customer01.be.ent.BeCustomerEntMapper;
 import com.xelerate.customer01.be.ent.BeCustomerEntVals;
+<<<<<<< HEAD
 //preetish k das
+=======
+//preetish das
+>>>>>>> branch 'master' of https://github.com/preetish249/APPS.git
 public class BeCustomerCreateApi implements APIIface {
   private BeCustomerEnt be = new BeCustomerEnt();
   private BeCustomerEntVals vl = new BeCustomerEntVals();
