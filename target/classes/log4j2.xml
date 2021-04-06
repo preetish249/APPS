@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="error" name="xelerate-ide">
+	<Properties>
+		<Property name="loghome">C:\\Work\\LOGX</Property>
+	</Properties>
+	<Appenders>
+		<!-- First File Appender -->
+		<Routing name="File-01">
+			<Routes pattern="$${ctx:userId}/">
+				<Route>
+					<RollingFile name="x3log"
+						fileName="${loghome}/${ctx:userId}/customer01-log.log"
+						filePattern="${loghome}/${ctx:userId}/%d{dd-MM-yyyy}-xelerate-ide-%i.log.zip">
+						<PatternLayout>
+							<Pattern>%d %p %-40c{1.} %m%n </Pattern>
+						</PatternLayout>
+						<Policies>
+							<TimeBasedTriggeringPolicy interval="1"
+								modulate="true" />
+							<SizeBasedTriggeringPolicy size="2 MB" />
+						</Policies>
+						<DefaultRolloverStrategy max="10" />
+					</RollingFile>
+				</Route>
+			</Routes>
+		</Routing>
+		<!-- Console Appender -->
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout>
+				<Pattern>%d %p %-40c{1.} %m%n </Pattern>
+			</PatternLayout>
+		</Console>
+	</Appenders>
+
+	<Loggers>
+		<!-- IDE Logger -->
+		<AsyncLogger name="customer01" level="ALL">
+			<AppenderRef ref="File-01" level="ALL" />
+			<AppenderRef ref="Console" level="ALL" />
+		</AsyncLogger>
+
+		<!-- Disabling Hibernate Logs -->
+		<logger name="org.hibernate">
+			<level value="error" />
+			<AppenderRef ref="File-01" level="error" />
+			<AppenderRef ref="Console" />
+		</logger>
+
+		<Logger name="org.hibernate.SQL" level="error"
+			additivity="false">
+			<AppenderRef ref="File-01" />
+			<AppenderRef ref="Console" />
+		</Logger>
+	</Loggers>
+</Configuration>

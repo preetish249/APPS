@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="xelerate-studio" transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<non-jta-data-source>java:comp/env/jdbc/xelerate-studio</non-jta-data-source>
+		
+		<class>com.xelerate.sms.dao.XutpUser</class>
+		<class>com.xelerate.sms.dao.XuttLogin</class>
+		<class>com.xelerate.sms.dao.XuttLoginHist</class>
+		<class>com.xelerate.sms.dao.XuttLoginHistPK</class>
+		<class>com.xelerate.sms.dao.XutpUserPreference</class>
+		<class>com.xelerate.sms.dao.XutpUserPreferencePK</class>
+		<class>com.xelerate.sms.dao.XuttNotification</class>
+		<class>com.xelerate.sms.dao.XuttUserProjects</class>
+		<class>com.xelerate.sms.dao.XutpBanner</class>
+		<class>com.xelerate.customer01.be.xdm.dao.CustAddresses02Ds</class>
+<class>com.xelerate.customer01.be.xdm.dao.CustAddresses02Ds_Pk</class>
+<class>com.xelerate.customer01.be.xdm.dao.CustMast02Ds</class>
+<class>com.xelerate.customer01.be.xdm.dao.CustPersonal02Ds</class>
+
+		 <!-- 
+			
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/xelerate?useSSL=false" />
+			<property name="javax.persistence.jdbc.user" value="xlmx" />
+			<property name="javax.persistence.jdbc.password" value="xlmx" />
+		</properties>
+		-->
+	</persistence-unit>
+</persistence>
