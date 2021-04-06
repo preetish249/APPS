@@ -1,0 +1,35 @@
+{
+	"p_p_version" : {
+		"ctrlId": "p_p_version",
+		"actions": ["LBLCHANGE", "REARRANGE", "VISIBILITY"],
+		"lblCode": "LC_PERSONAL_PP_VERSION",
+		"parentId": "gc1",
+		"visible": "Y"
+	},
+	"partnerType" : {
+		"ctrlId": "partnerType",
+		"actions": ["VISIBILITY"],
+		"visible": "N"
+	},
+	"prodStage" : {
+		"ctrlId": "prodStage",
+		"actions": ["VISIBILITY"],
+		"visible": "N"
+	},
+	"features_card" : {
+		"ctrlId": "features_card",
+		"actions": ["REARRANGE"],
+		"parentId": "details"
+	},
+	"details" : {
+		"ctrlId": "details",
+		"actions": ["LBLCHANGE"],
+		"lblCode": "LC_PERSONAL_DETAILS"
+	},
+	"p_code" : {
+		"ctrlId": "p_code",
+		"actions": ["LBLCHANGE"],
+		"lblCode": "LC_PERSONAL_PRODUCT_CODE",
+		"parentId": "details"
+	}
+}

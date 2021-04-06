@@ -1,0 +1,29 @@
+{
+    "menus":[
+        { "id": "ajson1", "parent": "#", "text": "Personal Banking","type":"root" ,"icon":"fa fa-fw fa-cog"},
+        { "id": "ajson3", "parent": "ajson1", "text": "Partner types & categories" ,"type":"child" ,"a_attr":{"href":"www.google.com"} },
+        { "id": "ajson4", "parent": "ajson1", "text": "Categories List" ,"type":"child" },
+        { "id": "ajson5", "parent": "ajson1", "text": "Formula" ,"type":"child" },
+        { "id": "ajson6", "parent": "ajson1", "text": "Qualifiers" ,"type":"child" },
+        { "id": "ajson7", "parent": "ajson1", "text": "Office maintenance" ,"type":"child" },
+        { "id": "ajson2", "parent": "#", "text": "Loans and Mortgages" ,"type":"root" ,"icon":"fa fa-fw fa-arrows"},
+        { "id": "ajson22", "parent": "ajson2", "text": "Internal Products" ,"type":"child" },
+        { "id": "ajson23", "parent": "ajson2", "text": "External Products" ,"type":"child" },
+        { "id": "ajson24", "parent": "ajson2", "text": "Business Service Products" ,"type":"child" },
+        { "id": "ajson25", "parent": "ajson2", "text": "Service Variation" ,"type":"child" },
+        { "id": "ajson26", "parent": "ajson2", "text": "Benefits & Coverages" ,"type":"child" },
+        { "id": "ajson8", "parent": "ajson2", "text": "Benefits " ,"type":"child" },
+        { "id": "ajson14", "parent": "#", "text": "Credit Cards" ,"type":"root","icon":"fa fa-fw fa-briefcase" },
+        { "id": "ajson15", "parent": "#", "text": "Insurances" ,"type":"root" ,"icon":"fa fa-fw fa-gears"},
+        { "id": "ajson16", "parent": "ajson15", "text": "Enterprise-product-catalogue" ,"type":"child" },
+        { "id": "ajson17", "parent": "ajson15", "text": "Product Variation" ,"type":"child" },
+        { "id": "ajson18", "parent": "ajson15", "text": "Product Piloting" ,"type":"child" },
+        { "id": "ajson19", "parent": "ajson15", "text": "Product Cannibalization" ,"type":"child" },
+        { "id": "ajson20", "parent": "ajson15", "text": "Product Comparision" ,"type":"child" },
+        { "id": "ajson21", "parent": "ajson15", "text": "Product Review" ,"type":"child" },
+        { "id": "ajson30", "parent": "#", "text": "Investments" ,"type":"root" ,"icon":"fa fa-fw fa-recycle" },
+        { "id": "ajson28", "parent": "ajson30", "text": "Business Service Package" ,"type":"child" },
+        { "id": "ajson29", "parent": "ajson30", "text": "Bundle maintenance" ,"type":"child" }
+      ],
+      "parentId":"epcmenu"
+    }

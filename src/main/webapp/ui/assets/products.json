@@ -1,0 +1,163 @@
+{
+	"ProductContext": {
+		"LineOfBusiness": "Product Pricing",
+		"BaseProduct": "FLDRPR01",
+		"SellableEntity": "yes",
+		"ParentProduct": "",
+		"ParentProductVersion": "0",
+		"PartnerType": "internal",
+		"ProductStage": "Launch and Maintenance",
+		"EntityStatus": "Approved",
+		"ProductAttributes": [
+			{
+				"ProductCode": "FML01",
+				"ProductVersion": "1",
+				"ProductName": "Drip Irrigation",
+				"IndependentlySellable": "yes",
+				"ProductOwner": "FLDRPR01",
+				"CreatedOn": "27/11/1995",
+				"ProductCurrency": "INR",
+				"ProductDescription": "Drip Irrigation",
+				"ListOfFeatures": [
+					{
+						"FeatureTitle": "Collateral Security",
+						"FeatureDescription": "Collateral Security Upto Rs. 10,000/- : NIL",
+						"FeatureId": "F001"
+					},
+					{
+						"FeatureTitle": "Repayment",
+						"FeatureDescription": "Differentiated repayment (M/Q/HY) repayment facility",
+						"FeatureId": "F002"
+					},
+					{
+						"FeatureTitle": "Free Accidental Insurance",
+						"FeatureDescription": "Free accidental insurance cover of Rs. 1.00 Lakhs",
+						"FeatureId": "F003"
+					}
+				]
+			},{
+				"ProductCode": "FML02",
+				"ProductVersion": "0",
+				"ProductName": "Failed EMI (Per EMI)",
+				"IndependentlySellable": "yes",
+				"ProductOwner": "FLDRPR01",
+				"CreatedOn": "27/11/1995",
+				"ProductCurrency": "INR",
+				"ProductDescription": "Failed EMI (Per EMI)",
+				"ListOfFeatures": [
+					{
+						"FeatureTitle": "Margin",
+						"FeatureDescription": "Margin 15% to 25% of the project cost",
+						"FeatureId": "F004"
+					},
+					{
+						"FeatureTitle": "No Processing Fee",
+						"FeatureDescription": "No Processing Fee",
+						"FeatureId": "F005"
+					}
+				]
+			},{
+				"ProductCode": "FML03",
+				"ProductVersion": "2",
+				"ProductName": "Failed SI (per SI)",
+				"IndependentlySellable": "yes",
+				"ProductOwner": "FLDRPR01",
+				"CreatedOn": "27/11/1995",
+				"ProductCurrency": "INR",
+				"ProductDescription": "Failed SI (per SI)",
+				"ListOfFeatures": [
+					{
+						"FeatureTitle": "Collateral Security",
+						"FeatureDescription": "Collateral Security Upto Rs. 32,000/- : NIL",
+						"FeatureId": "F006"
+					},
+					{
+						"FeatureTitle": "Margin",
+						"FeatureDescription": "Margin 35% to 55% of the project cost",
+						"FeatureId": "F007"
+					},
+					{
+						"FeatureTitle": "No Processing Fee",
+						"FeatureDescription": "No Processing Fee",
+						"FeatureId": "F008"
+					},
+					{
+						"FeatureTitle": "Repayment",
+						"FeatureDescription": "Differentiated repayment (M/Q/HY) repayment facility",
+						"FeatureId": "F009"
+					},
+					{
+						"FeatureTitle": "Free Accidental Insurance",
+						"FeatureDescription": "Free accidental insurance cover of Rs. 2.50 Lakhs",
+						"FeatureId": "F0010"
+						}
+					
+				]
+			},{
+				"ProductCode": "FML04",
+				"ProductVersion": "1",
+				"ProductName": "Summer Irrigation",
+				"IndependentlySellable": "yes",
+				"ProductOwner": "FLDRPR01",
+				"CreatedOn": "27/11/1995",
+				"ProductCurrency": "INR",
+				"ProductDescription": "Summer Irrigation",
+				"ListOfFeatures": [
+					{
+						"FeatureTitle": "EMI",
+						"FeatureDescription": "5% of actual amount",
+						"FeatureId": "F0011"
+					},
+					{
+					"FeatureTitle": "Free Accidental Insurance",
+						"FeatureDescription": "Free accidental insurance cover of Rs. 1.50 Lakhs",
+						
+						"FeatureId": "F012"
+					},
+					{
+						"FeatureTitle": "No Processing Fee",
+						"FeatureDescription": "No Processing Fee",
+						"FeatureId": "F013"
+					},
+					{
+						"FeatureTitle": "Margin",
+						"FeatureDescription": "Margin 35% to 55% of the project cost",
+						"FeatureId": "F014"
+						}
+				]
+			},{
+				"ProductCode": "FML05",
+				"ProductVersion": "0",
+				"ProductName": "Crop Loan",
+				"IndependentlySellable": "yes",
+				"ProductOwner": "FLDRPR01",
+				"CreatedOn": "27/11/1995",
+				"ProductCurrency": "INR",
+				"ProductDescription": "Crop Loan",
+				"ListOfFeatures": [
+					{
+						"FeatureTitle": "EMI",
+						"FeatureDescription": "15% of actual amount",
+						"FeatureId": "F0015"
+					},
+					{
+					"FeatureTitle": "Free Accidental Insurance",
+						"FeatureDescription": "Free accidental insurance cover of Rs. 2.00 Lakhs",
+						
+						"FeatureId": "F016"
+					},
+					{
+						"FeatureTitle": "No Processing Fee",
+						"FeatureDescription": "No Processing Fee",
+						"FeatureId": "F017"
+					},
+					{
+						"FeatureTitle": "Margin",
+						"FeatureDescription": "Margin 20% to 35% of the project cost",
+						"FeatureId": "F018"
+						}
+				]
+			}
+		]
+	}
+}

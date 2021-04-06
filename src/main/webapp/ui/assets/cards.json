@@ -1,0 +1,34 @@
+{
+	"custGroup": {
+		"summary": [
+			{
+				"custGroupId": "1",
+				"custGroupDesc": "1d",
+				"creationDate": "",
+				"status": "",
+				"groupType": ""
+			},
+			{
+				"custGroupId": "2",
+				"custGroupDesc": "2d",
+				"creationDate": "",
+				"status": "",
+				"groupType": ""
+			},
+			{
+				"custGroupId": "3",
+				"custGroupDesc": "3d",
+				"creationDate": "",
+				"status": "",
+				"groupType": ""
+			},
+			{
+				"custGroupId": "4",
+				"custGroupDesc": "4d",
+				"creationDate": "",
+				"status": "",
+				"groupType": ""
+			}
+		]
+	}
+}

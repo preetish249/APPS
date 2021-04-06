@@ -1,0 +1,106 @@
+{
+	"errorList": [],
+	"context": {
+	  "validationContext": {
+		"failFast": false
+	  },
+	  "operation-mode": "DEFAULT",
+	  "context-parameters": {
+		"catalogueEntityType": "P",
+		"catalogueEntityCode": "FLIRG01",
+		"catalogueEntityVersion": 1
+	  },
+	  "in-out-correlation": ""
+	},
+	"xCatalogueDetailsBE": [
+	  {
+		"xcatalogueEntityName": "Drip Irrigation",
+		"xcatalogueEntityCode": "FLDRPR01",
+		"xcatalogueEntityType": "P",
+		"xcatalogueEntityStatus": "Approved",
+		"xcatalogueEntityStage": "Launch and Maintenance",
+		"xcatalogueDescription": "Drip Irrigation",
+		"xcatalogueSellableEntity": "Y",
+		"xcatalogueEntityVersion": 0,
+		"listOfFeatures": [
+		  {
+			"featureTitle": "Collateral Security",
+			"featureDescription": "Collateral Security Upto Rs. 10,000/- : NIL",
+			"featureID": 25
+		  },
+		  {
+			"featureTitle": "Repayment",
+			"featureDescription": "Differentiated repayment (M/Q/HY) repayment facility",
+			"featureID": 26
+		  },
+		  {
+			"featureTitle": "Free Accidental Insurance",
+			"featureDescription": "Free accidental insurance cover of Rs. 1.00 Lakhs",
+			"featureID": 27
+		  },
+		  {
+			"featureTitle": "Margin",
+			"featureDescription": "Margin 15% to 25% of the project cost",
+			"featureID": 28
+		  },
+		  {
+			"featureTitle": "No Processing Fee",
+			"featureDescription": "No Processing Fee",
+			"featureID": 29
+		  }
+		],
+		"entityTagList": []
+	  },
+	  {
+		"xcatalogueEntityName": "Failed EMI (Per EMI)",
+		"xcatalogueEntityCode": "Service 1",
+		"xcatalogueEntityType": "P",
+		"xcatalogueEntityStatus": "Approved",
+		"xcatalogueEntityStage": "Launch and Maintenance",
+		"xcatalogueDescription": "Failed EMI (Per EMI)",
+		"xcatalogueSellableEntity": "Y",
+		"xcatalogueEntityVersion": 0,
+		"listOfFeatures": [],
+		"entityTagList": []
+	  },
+	  {
+		"xcatalogueEntityName": "Failed SI (per SI)",
+		"xcatalogueEntityCode": "Service 2",
+		"xcatalogueEntityType": "P",
+		"xcatalogueEntityStatus": "Approved",
+		"xcatalogueEntityStage": "Launch and Maintenance",
+		"xcatalogueDescription": "Failed SI (per SI)",
+		"xcatalogueSellableEntity": "Y",
+		"xcatalogueEntityVersion": 0,
+		"listOfFeatures": [],
+		"entityTagList": []
+	  },
+	  {
+		"xcatalogueEntityName": "Summer Irrigation",
+		"xcatalogueEntityCode": "IRD1",
+		"xcatalogueEntityType": "P",
+		"xcatalogueEntityStatus": "Pending Activation",
+		"xcatalogueEntityStage": "Ideation and Design",
+		"xcatalogueDescription": "Summer Irrigation Plan 2020",
+		"xcatalogueSellableEntity": "Y",
+		"xcatalogueEntityVersion": 1,
+		"listOfFeatures": [
+		  {
+			"featureTitle": "EMI",
+			"featureDescription": "5% of actual amount",
+			"featureID": 203
+		  }
+		],
+		"entityTagList": [
+		  {
+			"tag": "#Irrigation",
+			"tagId": 196
+		  },
+		  {
+			"tag": "#Summer2020",
+			"tagId": 197
+		  }
+		]
+	  }
+	]
+  }

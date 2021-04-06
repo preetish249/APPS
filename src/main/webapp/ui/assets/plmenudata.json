@@ -1,0 +1,14 @@
+{
+  "menus":[
+      { "id": "ajson1", "parent": "#", "text": "Delivery Management","type":"root" ,"icon":"icon icon-service"},
+      { "id": "ajson2", "parent": "#", "text": "Price/Stock" ,"type":"root" ,"icon":"icon icon-pricing"},
+      { "id": "ajson14", "parent": "#", "text": "Dashboard" ,"type":"root","icon":"icon icon-product" },
+      { "id": "ajson15", "parent": "#", "text": "Purchases" ,"type":"root" ,"icon":"icon icon-invoice"},
+      { "id": "ajson27", "parent": "#", "text": "Onboarding" ,"type":"root","icon":"icon icon-customer" },
+      { "id": "ajson39", "parent": "#", "text": "Inventory" ,"type":"root" ,"icon":"icon icon-inventory"},
+      { "id": "ajson42", "parent": "#", "text": "Traceability Report" ,"type":"root","icon":"icon icon-product-document" }
+      
+      
+    ],
+    "parentId":"menu"
+  }

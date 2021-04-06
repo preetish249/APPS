@@ -1,0 +1,6 @@
+{
+  "en" : {
+    "CO-CUST-001" : "Customer Id is mandatory",
+    "CO-CUST-002" : "Successfully saved the customer details"
+  }
+}

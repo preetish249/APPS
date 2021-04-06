@@ -1,0 +1,37 @@
+{
+	"hierarchyDetails":{
+		"hListMappedFields":{
+			"customerdetails":{
+				"customerHierarchyList":[{"title":"Customer Id","id":"customerId"},
+					{"title":"Customer Name","id":"customerName"},
+					{"title":"Currency","id":"currencyCode"}],
+				"accountHierarchyList":[{"title":"Account Id","id":"accountId"},
+					{"title":"Account Name","id":"accountName"},
+					{"title":"Product","id":"productCode"}]
+			},			
+			"productdetails":{
+				"selectedProductOrOffer":[{"title":"Entity Code","id":"entityCode"},
+					{"title":"Entity Type","id":"entityType"},
+					{"title":"Entity Name","id":"entityName"}],
+				"serviceDetails":[{"title":"Service Code","id":"serviceCode"},
+					{"title":"Service Type","id":"servicetype"},
+					{"title":"Service Name","id":"serviceDesc"},
+					{"title":"From Date","id":"fromDate"},
+					{"title":"To Date","id":"toDate"}],
+				"chargeDetails":[{"title":"Charge Code","id":"chargeCode"},
+					{"title":"Pricing Type","id":"pricingType"},
+					{"title":"Qualifier Id","id":"qualifier"},
+					{"title":"From Date","id":"fromDate"},
+					{"title":"To Date","id":"toDate"}]
+			}
+		},
+		"hListChildNode":{
+			"customerdetails": "childDetails",
+			"productdetails": "childDetails"
+		},
+		"hListToolBarLabels":{
+			"customerdetails": ["Show Accounts"],
+			"productdetails": ["Show Services","Show Charges"]
+		}
+	}
+}

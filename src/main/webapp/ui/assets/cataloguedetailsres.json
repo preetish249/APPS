@@ -1,0 +1,214 @@
+{
+	"errorList": [],
+	"context": {
+	  "validationContext": {
+		"failFast": false
+	  },
+	  "operation-mode": "DEFAULT",
+	  "context-parameters": {
+		"baseEntityCode": "FRMLN01",
+		"baseEntitytype": "P",
+		"lobCode": "ACT"
+	  },
+	  "in-out-correlation": ""
+	},
+	"xCatalogueDetailsBE": [
+	  {
+		"xCatalogueRootProductFlag": "Y",
+		"xcatalogueEntityName": "Farm Mechanization Loan",
+		"xcatalogueEntityCode": "FML01FML01FML01",
+		"xcatalogueEntityType": "P",
+		"xcatalogueEntityStatus": "Pending Approval",
+		"xcatalogueEntityStage": "Ideation and Design",
+		"xcatalogueVariantsCount": 4,
+		"xcatalogueDescription": "Farm Mechanization Loan",
+		"xcatalogueSellableEntity": "N",
+		"xcatalogueEntityVersion": 0,
+		"listOfFeatures": [],
+		"entityTagList": []
+	  },
+	  {
+		"xCatalogueRootProductFlag": "Y",
+		"xcatalogueEntityName": "Harvester Loan",
+		"xcatalogueEntityCode": "FLHV01",
+		"xcatalogueEntityType": "P",
+		"xcatalogueEntityStatus": "Pending Approval",
+		"xcatalogueEntityStage": "Ideation and Design",
+		"xcatalogueVariantsCount": 0,
+		"xcatalogueDescription": "Harvester Loan",
+		"xcatalogueSellableEntity": "N",
+		"xcatalogueEntityVersion": 0,
+		"listOfFeatures": [],
+		"entityTagList": [
+		  {
+			"tag": "#new year",
+			"tagId": 56
+		  },
+		  {
+			"tag": "#new year 2022",
+			"tagId": 57
+		  },
+		  {
+			"tag": "#2020",
+			"tagId": 58
+		  },
+		  {
+			"tag": "#new year 2023",
+			"tagId": 61
+		  },
+		  {
+			"tag": "#April scheme",
+			"tagId": 71
+		  },
+		  {
+			"tag": "#june",
+			"tagId": 72
+		  },
+		  {
+			"tag": "#new year 2024",
+			"tagId": 68
+		  },
+		  {
+			"tag": "#March scheme",
+			"tagId": 70
+		  },
+		  {
+			"tag": "#new year 2020",
+			"tagId": 54
+		  },
+		  {
+			"tag": "#new year 2021",
+			"tagId": 55
+		  },
+		  {
+			"tag": "#General savings",
+			"tagId": 49
+		  },
+		  {
+			"tag": "#Savings Loan",
+			"tagId": 50
+		  },
+		  {
+			"tag": "#Savings Account",
+			"tagId": 51
+		  },
+		  {
+			"tag": "#july",
+			"tagId": 73
+		  }
+		]
+	  },
+	  {
+		"xCatalogueRootProductFlag": "Y",
+		"xcatalogueEntityName": "Irrigation Loan",
+		"xcatalogueEntityCode": "FLIRG01",
+		"xcatalogueEntityType": "P",
+		"xcatalogueEntityStatus": "Draft",
+		"xcatalogueEntityStage": "Launch and Maintenance",
+		"xcatalogueVariantsCount": 4,
+		"xcatalogueDescription": "Irrigation Loan",
+		"xcatalogueSellableEntity": "N",
+		"xcatalogueEntityVersion": 1,
+		"listOfFeatures": [],
+		"entityTagList": [
+		  {
+			"tag": "#December Scheme",
+			"tagId": 78
+		  },
+		  {
+			"tag": "#General savings",
+			"tagId": 74
+		  },
+		  {
+			"tag": "#Savings Loan",
+			"tagId": 75
+		  },
+		  {
+			"tag": "#Savings Account",
+			"tagId": 76
+		  },
+		  {
+			"tag": "#November scheme",
+			"tagId": 77
+		  }
+		]
+	  },
+	  {
+		"xCatalogueRootProductFlag": "Y",
+		"xcatalogueEntityName": "Orchid Farm Loan",
+		"xcatalogueEntityCode": "FLOCD01",
+		"xcatalogueEntityType": "P",
+		"xcatalogueEntityStatus": "Pending Approval",
+		"xcatalogueEntityStage": "Demise",
+		"xcatalogueVariantsCount": 0,
+		"xcatalogueDescription": "Orchid Farm Loan",
+		"xcatalogueSellableEntity": "N",
+		"xcatalogueEntityVersion": 0,
+		"listOfFeatures": [],
+		"entityTagList": []
+	  },
+	  {
+		"xCatalogueRootProductFlag": "Y",
+		"xcatalogueEntityName": "Horticulture Loan",
+		"xcatalogueEntityCode": "FLHC01",
+		"xcatalogueEntityType": "P",
+		"xcatalogueEntityStatus": "Approved",
+		"xcatalogueEntityStage": "Launch and Maintenance",
+		"xcatalogueVariantsCount": 0,
+		"xcatalogueDescription": "Horticulture Loan",
+		"xcatalogueSellableEntity": "N",
+		"xcatalogueEntityVersion": 0,
+		"listOfFeatures": [],
+		"entityTagList": [
+		  {
+			"tag": "#Horticulture student Loan",
+			"tagId": 34
+		  },
+		  {
+			"tag": "#Horticulture student new loan",
+			"tagId": 40
+		  },
+		  {
+			"tag": "#Horticulture Loan",
+			"tagId": 33
+		  },
+		  {
+			"tag": "#Horticulture student scheme",
+			"tagId": 36
+		  },
+		  {
+			"tag": "#General savings",
+			"tagId": 41
+		  },
+		  {
+			"tag": "#Savings Loan",
+			"tagId": 42
+		  },
+		  {
+			"tag": "#Savings Account",
+			"tagId": 43
+		  },
+		  {
+			"tag": "#Car loan",
+			"tagId": 44
+		  },
+		  {
+			"tag": "#Car new",
+			"tagId": 45
+		  },
+		  {
+			"tag": "#Tractor",
+			"tagId": 46
+		  },
+		  {
+			"tag": "#Farm Horticulture",
+			"tagId": 47
+		  },
+		  {
+			"tag": "#Agriculture students loan",
+			"tagId": 48
+		  }
+		]
+	  }
+	]
+  }

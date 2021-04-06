@@ -1,0 +1,1125 @@
+.flexiciousGrid{
+    /* font-family:Arial, Sans-Serif; */
+    font-size:0.6875rem !important;;
+    /* margin: 0px 0px 5px 3px; */
+    line-height:10px;
+    font-weight:400;
+}
+.flexiciousGrid .flexDataGrid{
+    position: relative;
+}
+/*.flexiciousGridPager .pagerDiv  {
+    vertical-align: top;
+}*/
+.flexiciousGridPager .toolbarButtonIconCell {
+    cursor: pointer;
+}
+.flexiciousGridPager .iconCell{
+    margin: 2px;
+    padding: 2px;
+    border-radius: 2px;
+    border: solid 0px #afafaf;
+    /* background: #efefef; */
+    height:17px;
+    /* text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s; */
+    transition-duration: 0.2s;
+
+    /* -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none; */
+    user-select:none;
+
+    cursor: pointer;
+    box-sizing : content-box;
+    /* -moz-box-sizing : content-box;
+    -webkit-box-sizing : content-box;
+    -ms-box-sizing : content-box; */
+}
+.flexiciousGridPager .iconCell:hover {
+    background: #348FFC;
+    border: solid 0px #2A4D77;
+    text-decoration: none;
+    cursor: pointer;
+}
+.flexiciousGridPager .iconCell:active {
+    /* -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6); */
+    background: #afafaf;
+    /* border: solid 1px #213E5F; */
+    cursor: default;
+}
+.flexiciousGridPager .disabled{
+    cursor: not-allowed;
+
+    opacity : 0.4;
+    filter: alpha(opacity=40);
+}
+.flexiciousGridPager .iconCell img{
+    border: solid 1px transparent;
+}
+.flexiciousGridPager .iconCell {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.flexiciousGridPager .iconCell .over{
+}
+
+.flexiciousGridPager .pageInfo {
+    width: 220px;
+    display:inline-block;
+    /* padding-top:0.5%;*/
+    /* vertical-align: middle;*/
+    height:100%;
+}
+
+.flexiciousGridPager .lineSep {
+    border-left:thin solid black;
+    width:1px;
+    display:inline-block;
+    /* margin-top:4px;*/
+    height:70%;
+    margin-left:3px;
+    margin-right:3px;
+    vertical-align: middle;
+}
+
+.flexiciousGridPager .gotoPage {
+    display:inline-block;
+    /*padding-top:0.5%;*/
+}
+.flexiciousGrid .normalWhiteSpace{
+    white-space: normal;
+}
+
+.flexiciousGrid .pagerTable{
+    padding-left: 2px;
+}
+
+.flexiciousGrid .paginationPagerTable{
+    padding-left: 2px;
+}
+
+.flexiciousGrid td{
+    padding:0px;
+    margin:0px;
+    cursor:default;
+}
+.flexiciousGrid input{
+    overflow: hidden;
+    white-space: nowrap;
+    padding:0px;
+    margin:0px;
+    border: 1px solid rgba(204, 204, 204,.5);
+    cursor:default;
+    border-radius: 3px;
+}
+
+.flexiciousGrid .TextInput{
+
+    position:relative;
+}
+
+.flexiciousGrid .disclosureIcon{
+    position: absolute;
+    cursor: pointer;
+    top: 8px !important;
+}
+.flexiciousGrid .columnIcon{
+    position: absolute;
+    cursor: pointer;
+}
+
+
+.flexiciousGrid .matchStick{
+    position:absolute;top:0px;left:0px;width:1px;height:1px;
+}
+.flexiciousGrid .editor{
+    position:absolute;
+}
+.flexiciousGrid .multiColumnSortNumberStyle{
+    font-size: 10pt;
+}
+
+
+
+/*=============controls===================*/
+.flexiciousGrid .iconTextInput span {
+    position: relative;
+}
+.flexiciousGrid .watermarkStyle{
+    color:#bbbbbb;
+    font-style:italic;
+}
+
+.flexiciousGrid .inputIcon{
+    position: absolute;
+    display: block;
+    cursor: pointer;
+}
+.flexiciousGrid .unSelectableText {
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.flexiciousUnSelectableText {
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor:default;
+}
+
+/*=============checkbox icons===================*/
+.flexiciousGrid .checkBox{
+    background: url('images/checkboxicons/unchecked_checkbox.png')  no-repeat ;
+    padding-left: 20px;
+}
+.flexiciousGrid .checkBoxDisabled{
+    background: url('images/checkboxicons/unchecked_checkbox.png')  no-repeat ;
+    opacity : 0.4;
+    filter: alpha(opacity=40);
+    padding-left: 20px;
+}
+.flexiciousGrid .checkBoxSelected{
+    background: url('images/checkboxicons/checked_checkbox.png')  no-repeat ;
+    padding-left: 20px;
+}
+.flexiciousGrid .checkBoxSelectedDisabled{
+    background: url('images/checkboxicons/checked_checkbox.png')  no-repeat ;
+    opacity : 0.4;
+    filter: alpha(opacity=40);
+    padding-left: 20px;
+}
+
+.flexiciousGrid .checkBoxMiddle{
+    background: url('images/checkboxicons/partially_selected_checkbox.png')  no-repeat ;
+    padding-left: 20px;
+}
+
+.flexiciousGrid .checkBoxMiddleDisabled{
+    background: url('images/checkboxicons/partially_selected_checkbox.png')  no-repeat ;
+    padding-left: 20px;
+    opacity : 0.4;
+    filter: alpha(opacity=40);
+}
+.flexiciousGrid .radio{
+    background: url('images/checkboxicons/radio_button_unselected.png')  no-repeat ;
+}
+.flexiciousGrid .radioDisabled{
+    background: url('images/checkboxicons/radio_button_unselected.png')  no-repeat ;
+    padding-left: 20px;
+    opacity : 0.4;
+    filter: alpha(opacity=40);
+}
+.flexiciousGrid .radioSelected{
+    background: url('images/checkboxicons/radio_button_selected.png')  no-repeat ;
+    padding-left: 20px;
+}
+.flexiciousGrid .radioSelectedDisabled{
+    background: url('images/checkboxicons/radio_button_selected.png')  no-repeat ;
+    padding-left: 20px;
+    opacity : 0.4;
+    filter: alpha(opacity=40);
+}
+
+/*=============sort icons===================*/
+.flexiciousGrid .sortIcon {
+    position:absolute;
+}
+.flexiciousGrid .sortLabel {
+    position:absolute;
+    pointer-events:none;
+}
+
+.flexiciousGrid .descendingSort {
+    -moz-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: flipv; /*IE*/
+}
+
+.flexiciousGrid .sortSeparator {
+    position:absolute;
+    border-right:1px solid #CCCCCC;
+}
+
+.flexiciousGrid .textHolder{
+    position:absolute;
+}
+.flexiciousGrid .resizeGraphic{
+    border-right:1px solid #222222;
+    position: absolute;
+}
+.flexiciousGrid .movingGlyph{
+    background: #6495ed;
+    position: absolute;
+    opacity:0.7;
+    filter:alpha(opacity=70); /*IE*/
+}
+
+.fg-menu-container{
+    z-index: 1003;
+}
+
+
+/*=============multi column sort popup===================*/
+.flexiciousSortPopupMenuItem{
+
+}
+.flexiciousSortPopupMenuItem .separator{
+    border-bottom:  solid 1px #a9a9a9;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.flexiciousSortPopup {
+}
+.flexiciousSortPopup input {
+    margin:4px;
+}
+.flexiciousSortPopup  .sortPopupHeader{
+    font-size: 12pt;
+    padding:5px;
+}
+
+.flexiciousSortPopup .sortPopupRow{
+    padding-left:50px;
+    clear:both;
+    padding:4px;
+}
+.flexiciousSortPopup .sortPopupLabel{
+    width:100px;
+    float:left;
+}
+.flexiciousSortPopup .sortPopupDropdown{
+    width:200px;
+    position:relative;
+    float:left;
+    padding-right:20px;
+}
+.flexiciousSortPopup .sortPopupDownArrow{
+    position:absolute;
+    top:2px;
+    right:2px;
+}
+.flexiciousSortPopup .sortPopupButton{
+    float:right;
+    margin-left: 10px;
+}
+.flexiciousSortPopup .sortPopupButtonBar{
+    padding-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+.flexiciousSortPopup .disabledLabel{
+    color: #bbbbbb;
+}
+
+
+/*=============date picker popup===================*/
+.flexiciousDatePickerPopup .datePickerButton{
+    float:right;
+    margin-left: 10px;
+}
+.flexiciousDatePickerPopup .datePickerButtonBar{
+    padding-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+
+.flexiciousDatePickerPopup .datePickerBar{
+    padding-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+
+.flexiciousDatePickerPopup .datePickerStartDate{
+    float:left;
+}
+.flexiciousDatePickerPopup .datePickerEndDate{
+    float:right;
+}
+
+
+/*=============multiselect combobox ===================*/
+.flexiciousGrid .multiSelectComboBox {
+    display:inline-block;
+}
+.flexiciousGrid .multiSelectComboBox .textBox{
+    top:2px;
+}
+.flexiciousGrid .multiSelectComboBox img{
+    top:2px;
+}
+
+.flexiciousGrid .multiSelectComboBoxPopup{
+
+    border: solid 1px black;
+    background: white;
+    z-index: 1001;
+}
+.flexiciousGrid .multiSelectComboBoxPopup .checkBoxRow{
+    padding:2px;
+}
+
+.flexiciousGrid .multiSelectComboBoxPopup .okCancelDiv{
+    display:block;
+}
+.flexiciousGrid .multiSelectComboBoxPopup .okCancel{
+    padding:4px;
+    text-align:right;
+    border-top:solid 1px #CCCCCC;
+}
+.flexiciousGrid .multiSelectComboBoxPopup .okButton{
+
+    padding:2px;
+    text-decoration: underline;
+    cursor: pointer;
+    display:inline;
+}
+.flexiciousGrid .multiSelectComboBoxPopup .cancelButton{
+
+    padding:2px;
+    text-decoration: underline;
+    cursor: pointer;
+    display:inline;
+}
+.flexiciousGrid .multiSelectComboBoxPopup .hover{
+    background:#CEDBEF;
+}
+/*=============numeric range box===================*/
+
+.flexiciousGrid .numericRangeBox {
+    display:inline-block;
+}
+.flexiciousGrid   {
+    position:relative;
+}
+.flexiciousGrid  .flexDataGridVirtualBodyContainer {
+    position:absolute;
+    overflow: auto;
+}
+
+.flexiciousGrid  .flexDataGridHeaderContainer {
+    position:absolute;
+    overflow:hidden;
+}
+
+.flexiciousGrid  .lockedContent {
+    position:absolute;
+    overflow:hidden;
+}
+.flexiciousGrid  .elasticContainer {
+    position:absolute;
+    overflow:hidden;
+}
+
+.flexiciousGrid  .flexDataGridCell  label {
+    top:4px !important;
+}
+.flexiciousGrid  .flexDataGridCell .expandCollapseIcon{
+    top:0px !important;
+}
+.flexiciousGrid  .flexDataGridCell {
+    position:absolute;
+
+}
+
+.flexiciousGrid  .flexDataGridCell .cellIcon {
+    position:absolute;
+}
+
+.flexiciousGrid  .flexDataGridCell .triStateCheckBox {
+    /*padding-left: 0;*/
+    background-position: 4px,4px ;
+    -ms-background-position-x: 4px;
+    -ms-background-position-y: 4px;
+
+}
+.flexiciousGrid  .flexDataGridCell .cellRenderer {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;;
+    line-height: 19px;
+    font-size: 0.6875rem !important;;
+    font-weight: 400;
+}
+.flexiciousGrid  .flexDataGridCell .expandCollapseIcon {
+    position: absolute;
+}
+
+
+/* .flexiciousGrid  .flexDataGridHeaderCell {
+    font-weight: bold;
+    background: #bee5f5 !important;
+} */
+
+.flexiciousGrid  .flexDataGridColumnGroupCell {
+    font-weight: bold;
+}
+.flexiciousGrid  .bottomBar {
+    position:absolute;
+}
+
+.flexiciousGrid  .leftLockedVerticalSeparator {
+    position:absolute;
+}
+.flexiciousGrid  .rightLockedVerticalSeparator {
+    position:absolute;
+}
+.flexiciousGrid  .rightLockedVerticalSeparator {
+    position:absolute;
+}
+.flexiciousGrid  .uIComponent {
+    text-overflow:clip;
+    display: inline-block;
+}
+
+.flexiciousGrid .columnResizingGlyph{
+    background-color: #222222;
+    position: absolute;
+}
+.flexiciousGrid .columnDraggingGlyph{
+    background-color: #222222;
+    position: absolute;
+}
+
+
+
+.flexiciousGrid .myHeader{
+    padding-top:0;
+    font-weight: bold ;
+    color:#3764A0;
+}
+
+
+.flexiciousGrid .button {
+    padding: 2px 5px;
+    border-radius: 4px;
+    border: solid 1px #20548D;
+    background: #4479BB;
+    color: #FFF;
+
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+
+    cursor: default;
+}
+.flexiciousGrid .button:hover {
+    background: #356194;
+    border: solid 1px #2A4D77;
+    text-decoration: none;
+    cursor: default;
+}
+.flexiciousGrid .button:active {
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: #2E5482;
+    border: solid 1px #213E5F;
+    cursor: default;
+}
+
+.flexiciousGrid .handCursor{
+    cursor: pointer;
+}
+
+
+/*=========settingsPopup========*/
+.flexiciousGrid .settingsPopup {
+    height: 250px;
+}
+.flexiciousGrid .settingsPopup .multiSelectComboBox{
+    position:absolute;
+    left:10px;
+    top:10px;
+    visibility: hidden;
+}
+.flexiciousGrid .settingsPopup .multiSelectComboBoxPopup{
+    position:absolute;
+    left:10px;
+    height: 205px;
+    width: 250px;
+    overflow-y: scroll;
+}
+
+.flexiciousGrid .settingsPopup .txtPageSize{
+    width: 55px;
+}
+
+.flexiciousGrid .settingsPopup .columnsLabel{
+    left:10px;
+    top:1px;
+    position:absolute;
+
+}
+
+.flexiciousGrid .settingsPopup .options{
+    right:10px;
+    top:30px;
+    position:absolute;
+    width:200px;
+
+}
+
+.flexiciousGrid .bottomButtonBar {
+    position: absolute;
+    right :10px;
+    bottom :10px;
+    vertical-align: bottom;
+}
+
+.flexiciousGrid .bottomButtonBarSave {
+    position: absolute;
+    right :110px;
+    bottom :4px;
+}
+
+/*=========exportOptionsView========*/
+.flexiciousGrid .exportOptionsView {
+    height: 250px;
+}
+
+.flexiciousGrid .exportOptionsView .txtPageFrom{
+    width: 55px;
+}
+
+.flexiciousGrid .exportOptionsView .txtPageTo{
+    width: 55px;
+}
+
+.flexiciousGrid .exportOptionsView .multiSelectComboBox{
+    position:absolute;
+    left:10px;
+    top:10px;
+    visibility: hidden;
+}
+.flexiciousGrid .exportOptionsView .multiSelectComboBoxPopup{
+    position:absolute;
+    left:10px;
+    height: 205px;
+    width: 250px;
+    overflow-y: scroll;
+}
+.flexiciousGrid .exportOptionsView .options{
+    right:10px;
+    top:30px;
+    position:absolute;
+    width:200px;
+    line-height: 22px;
+}
+
+.flexiciousGrid .exportOptionsView .columnsLabel{
+    left:10px;
+    top:1px;
+    position:absolute;
+}
+
+
+.flexiciousGrid .exportOptionsView .comboBox{
+    position:absolute;
+    right:80px;
+    top:142px;
+}
+/*=========exportOptionsView========*/
+.flexiciousGrid .printOptionsView {
+    height: 250px;
+}
+
+.flexiciousGrid .printOptionsView .txtPageFrom{
+    width: 55px;
+}
+
+.flexiciousGrid .printOptionsView .txtPageTo{
+    width: 55px;
+}
+
+.flexiciousGrid .printOptionsView .multiSelectComboBox{
+    position:absolute;
+    left:10px;
+    top:10px;
+    visibility: hidden;
+}
+.flexiciousGrid .printOptionsView .multiSelectComboBoxPopup{
+    position:absolute;
+    left:10px;
+    height: 205px;
+    width: 250px;
+    overflow-y: scroll;
+}
+.flexiciousGrid .printOptionsView .options{
+    right:10px;
+    top:30px;
+    position:absolute;
+    width:200px;
+    line-height: 22px;
+}
+
+
+.flexiciousGrid .printOptionsView .comboBox{
+    position:absolute;
+    right:45px;
+    top:150px;
+}
+/*=========openSettingsPopup========*/
+.flexiciousGrid .openSettingsPopup {
+    height: 300px;
+}
+/*=========openSettingsPopup========*/
+.flexiciousGrid .saveSettingsPopup {
+    height: 200px;
+}
+
+
+.flexiciousGrid .lessOpacity {
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+
+
+.flexiciousGrid .spinnerLabel{
+    background-color: #CDCDCD;
+    padding: 5px;
+    display: none;/*  To  hide the No Records Found message */
+}
+
+.flexiciousGrid .backgroundForFillerRows{
+    position: absolute;
+    overflow: hidden;
+}
+
+.flexiciousGrid .largeIcons .iconCell{
+    height: 36px;
+    width: 36px;
+}
+
+.x-toolbar-cell .x-btn
+{
+    width: 190px !important;
+}
+
+
+.ui-dialog .ui-dialog-titlebar-close span{
+    left: 0px;
+    margin: 0px;
+    top: 0px;
+}
+
+img.dataLegendImageStyle {
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    cursor: pointer;
+    position: relative;
+    top: -1px;
+}
+
+.flexDataGridVirtualBodyContainer .flexDataGridPagerCell {
+    height: 1px !important;
+}
+.flexDataGridVirtualBodyContainer .paginationPagerTable {
+    display: none;
+}
+.flexDataGridCell .triStateCheckBox i {
+    padding-top: 2px !important;
+}
+.flexDataGridCell .inlineFieldDivHeight {
+    top: 3px !important;
+    line-height: 20px !important;
+}
+
+.inlineFieldDivHeight input[type='text'], .inlineFieldDivHeight input[type='number']{
+    border: 1px solid #00000026 !important;
+    width: 100% !important;
+    line-height: 19px !important;
+    padding-left: 3px;
+     padding-right: 3px;
+
+}
+.inlineFieldDivHeight .dropdown-toggle::after{
+    display: none;
+}
+.inlineFieldDivHeight .dropdown-toggle::before{
+    display: none;
+}
+.inlineFieldDivHeight .btn-group > .btn, .btn-group-vertical > .btn{
+    border: 1px solid #00000026 !important;
+    line-height: 19px !important;
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    font-family: Arial !important;
+    background-color: white;   
+}
+.inlineFieldDivHeight .bootstrap-select.btn-group .btn .filter-option {
+    width: 85%;
+    font-family: Arial;
+}
+
+.inlineFieldDivHeight .xel_inputGroup.dateInputGroupImage{
+position: absolute;
+top: 4px;
+right: 2px;
+width:15px;
+}
+.inlineFieldDivHeight input[datefield='true'] {
+    padding-right: 15px;
+}
+.inlineFieldDivHeight .mat-datepicker-toggle .mat-icon-button {
+    -webkit-appearance: media-volume-sliderthumb !important;
+}
+
+.dataLegendPopupSpan{
+    display: flex;
+    justify-content: center;
+}
+img.dataLegendPopupImageStyle{
+    padding-top: 0px !important;
+    cursor: pointer;
+    position: relative;
+}
+.dataLegendSpan{
+    display: flex;
+    justify-content: center;
+}
+.dataLegendSpan .dataLegendImageStyle {
+    top: 3px;
+    padding-left: 0px !important;
+}
+.xel_textAreaDiv,
+.xel_textAreaDiv table,
+.xel_textAreaDiv td {
+background: #d4e8fe;
+}
+.xel_textAreaDiv table tr td {
+    height: 0 !important;
+    padding:0 5px !important;
+}
+.xel_comment_Action_div {
+    background:#3097fd;
+    color: #fff !important;
+}
+.xel_comment_Action_div:hover, 
+.xel_comment_Action_div:focus {
+    cursor: pointer;
+    text-decoration: none;
+	background: #2f80e2;
+    color: #fff !important;
+}
+.grid-comment-button-vertical {
+    text-align: right;
+}
+.flexiciousGrid .inlineCheckBoxParent {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 2px;
+}
+.regular-checkbox {
+    -webkit-appearance: none;
+    border : none !important;
+}
+.regular-checkbox::after{
+    content: "";
+    color: #93989d;
+    font: normal normal normal 24px/1 "Material Design Icons" !important;
+    font-size: 15px !important;
+    text-rendering: auto;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+    color: #93989d;
+}
+
+.regular-checkbox:checked {
+	border: none !important;
+}
+.regular-checkbox:checked:after {
+    content: "";
+    color: #93989d;
+    font: normal normal normal 24px/1 "Material Design Icons" !important;
+    font-size:15px !important;
+    text-rendering: auto;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+    color: #93989d;
+    content: "";
+    color: #5091fa;
+}
+.regular-checkbox:focus {
+    outline: none !important;
+}
+.regular-checkbox:checked:focus {
+    outline: none !important;
+}
+
+/****************************
+Text Area Stars here
+****************************/
+.xel_textAreaDiv {
+	display: none;
+	background-color: #fff;
+	padding: 0px;
+	border-radius: 6px;
+	/* box-shadow: 0px 3px 12px 1px #000000; */
+	min-width: 300px;
+	width: 300px;
+	position: absolute;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+/* 	cursor: move; */
+	z-index: 2000;
+	background: #FFFFFF;
+	border: 1px solid #F08331;
+	min-height: 0px;
+	transition: all linear .1s;
+	-webkit-transition: all linear .1s;
+	overflow: hidden;
+	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+.xel_textArea_title {
+	color: #772B2C;
+  background-color: #F4EEE0;
+  font-family: arial;
+  font-size: 12px;
+  cursor: move;
+}
+
+.xel_textArea_title>td {
+	font-weight: bolder;
+	padding: 0 5px;
+}
+
+.xel_textArea_td {
+	width: 100%;
+	vertical-align: middle;
+	padding: 8px 4px 0px;
+}
+
+.xel_txtArea_pop {
+	resize: none;
+	background-color: #FFFFFF;
+	border: solid 1px #D2D2D2;
+	border-radius: 7px;
+	height: 20px;
+	vertical-align: middle !important;
+	padding: 0px 2px;
+	min-height: 20px;
+}
+
+.xel_popup_textArea {
+	resize: auto;
+  width: 100%;
+  min-width: 290px;
+  min-height: 105px;
+  border: none !important;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px
+ rgba(102, 175, 233, .6);
+  /* box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px
+ rgba(102, 175, 233, .6); */
+  padding: 2px;
+
+}
+.xel_comments_text_area{
+	resize:none;
+	border: solid 1px #E1E1E1;
+    border-radius: 7px;
+}
+
+.xel_textArea_pop_btn_div>button {
+	padding: none !important;
+}
+
+td>.xel_textArea_pop_btn_div {
+	font: -webkit-body;
+	float: right;
+	margin: 5px 0px;
+}
+
+.xel_textArea_pop_btn_div {
+	float: right;
+}
+.xel_textArea_pop_btn {
+  border-radius: 14px;
+  color: #FFF !important;
+  cursor: pointer;
+  margin-right: 3px !important;
+  padding: 0 8px;
+  float: left;
+  background: linear-gradient(rgb(120, 177, 221), rgb(26, 107, 161));
+  border: 0px solid #F08331;
+}
+
+.xel_textArea_pop_btn:focus {
+	background: #772B2C;
+}
+
+.xel_popTxtAreaCloseBtn {
+	background: url("../images/close.png") no-repeat center;
+	height: 25px;
+	width: 25px;
+}
+
+.xel_popTxtAreaCloseBtn:hover {
+	background: url("../images/close_hov.png") no-repeat center;
+	height: 25px;
+	width: 25px;
+	cursor: pointer;
+}
+
+.xel_popup_textArea{
+    box-shadow:none;
+    border: 1px solid #dadbdd !important;
+}
+.xel_popup_textArea:focus,
+.xel_popup_textArea:hover{
+    box-shadow:none;
+    border: 1px solid #3097fd !important;
+}
+.xel_textAreaDiv {
+    border: 1px solid #d9dadc;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.176);
+    border-radius: 4px;
+}
+
+/*******************************
+textarea popup ends here
+******************************/
+
+.flexiciousGrid .dataGridHeaderViewStyle .cellRenderer {
+    /* font-weight: 600;
+    color: #fff;
+    font-size: 13px !important;
+    line-height: 26px; */
+    font: 600 14px/24px "Open Sans", sans-serif !important;
+    color: #fff;
+}
+
+.dataGridPagerViewStyle .pagerControl span.paginationPagerTable {
+    line-height: 33px;
+}
+.flexiciousGrid .flexDataGridViewStyleCell .cellRenderer {
+    font-size: 13px !important;
+    line-height: 26px !important;
+}
+.flexiciousGrid .flexDataGridViewStyleCell .cellRenderer .pagerDiv.iconCell {
+    line-height: 15px;
+    padding: 4px;
+}
+.flexiciousGrid .flexDataGridViewStyleCell .cellRenderer .pagerDiv select.pageDropdown {
+    font-size: 13px;
+    height: 20px;
+}
+.flexiciousGrid .flexDataGridViewStyleCell .inlineFieldDivHeight input[type='text'], .inlineFieldDivHeight input[type='number'] {
+    line-height: 26px !important;
+}
+.flexiciousGrid .flexDataGridViewStyleCell .inlineFieldDivHeight .xel_inputGroup.dateInputGroupImage {
+  top: 7px;
+}
+.flexiciousGrid .flexDataGridViewStyleCell .inlineFieldDivHeight .btn-group > .btn, .btn-group-vertical > .btn {
+    line-height: 26px !important;
+    font-size: 13px !important;
+    border-radius: 3px;
+}
+
+.flexiciousGrid .flexDataGridViewStyleCell img.dataLegendPopupImageStyle {
+    padding-top: 6px !important;
+}
+.flexiciousGrid .flexDataGridViewStyleCell .inlineFieldDivHeight input {
+    line-height: 26px;
+}
+.dataGridPagerViewStyle .gotoPage {
+    padding-left: 10px;
+}
+.elasticContainer .flexiciousGridPager.pagerControl{
+    height: 1px !important;;
+}
+.elasticContainer .flexiciousGridPager.pagerControl{
+    height: 1px !important;;
+}
+.flexDataGridVirtualBodyContainer .flexiciousGridPager.pagerControl{
+    height: 1px !important;;
+}
+.flexiciousGrid .flexDataGridViewStyleCell .triStateCheckBox img.dataLegendImageStyle {
+    top: -1px !important;
+}
+.inlineFieldDivHeight input[type='text'].errorField,.inlineFieldDivHeight input[type='number'].errorField,.inlineFieldDivHeight .btn-group > .btn.errorField, .btn-group-vertical > .btn.errorField {
+	border: solid 1px #FF0000 !important;
+}
+
+.warningField {
+	border: solid 1px #f4b04f !important;
+}
+
+.erro_msgDiv {
+	display: none;
+	position: fixed;
+	background-color: #e66454;
+	padding: 0px;
+	color: #fff;
+	z-index: 100;
+	/*border: 3px solid #3e4c50;*/
+	border-radius: 6px;
+	/*box-shadow: 0px 3px 12px 1px #000000;*/
+	-moz-border-radius: 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px;
+	top: 12px;
+	left: 10px;
+	-webkit-box-shadow: -1px -1px 10px 0px rgba(50, 50, 50, 0.45);
+	-moz-box-shadow: -1px -1px 10px 0px rgba(50, 50, 50, 0.45);
+	box-shadow: -1px -1px 10px 0px rgba(50, 50, 50, 0.45);
+}
+.flexiciousGrid td#errorTd {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.tootTipImg {
+	display: none;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	z-index: 1;
+	top: 2px;
+	left: 20px; 
+	/*background: url("../images/tooltip1.png") no-repeat center;*/
+}
+table.error_table_main {
+	padding: 0px;
+	margin: 0px;
+	height: -10px;
+}
+.inlineLinkParent {
+    text-align: center;
+}

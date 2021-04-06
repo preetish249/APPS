@@ -1,0 +1,37 @@
+{
+	"errorList": [],
+	"context": {
+		"tenantId": 0,
+		"operation-mode": "DEFAULT",
+		"context-parameters": {},
+		"in-out-correlation": "",
+		"disable-session-access": false,
+		"session-id": 0,
+		"access-mode": "STREAM",
+		"execution-mode": "ASYNC",
+		"session-context-mode": "IMPLIED",
+		"max-access-limit": 1000,
+		"stream-batch-size": 1,
+		"context-required-always": false
+	},
+	"resultContext": {
+		"totalPages": 1,
+		"totalCount": 11,
+		"currentPageSize": 11,
+		"hasNext": false,
+		"hasPrevious": false
+	},
+	"custGroup": [
+		{ "custGroupId": "9", "custGroupDesc": "9", "creationDate": "13/02/20", "status": true },
+		{ "custGroupId": "G2", "custGroupDesc": "G2 D", "creationDate": "22/01/22", "status": false },
+		{ "custGroupId": "a", "custGroupDesc": "aaaaaa", "creationDate": "06/02/20", "status": true },
+		{ "custGroupId": "testNew", "custGroupDesc": "Test", "creationDate": "19/02/20", "status": false },
+		{ "custGroupId": "qwe", "custGroupDesc": "rty", "creationDate": "26/02/20", "status": true },
+		{ "custGroupId": "is", "custGroupDesc": "it", "creationDate": "14/02/20", "status": false },
+		{ "custGroupId": "13", "custGroupDesc": "Thrteen", "creationDate": "06/02/20", "status": true },
+		{ "custGroupId": "create", "custGroupDesc": "New", "creationDate": "20/02/20", "status": false },
+		{ "custGroupId": "1", "custGroupDesc": "a", "creationDate": "02/03/20", "status": false },
+		{ "custGroupId": "3", "custGroupDesc": "333", "creationDate": "02/02/20", "status": true },
+		{ "custGroupId": "2", "custGroupDesc": "22", "creationDate": "02/02/22", "status": true }
+	]
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans.xsd 
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- Modules -->
+    <bean id="CORContext" class="com.xelerate.core.Context"
+		scope="prototype"></bean>
+    <bean id="SMSContext" class="com.xelerate.sms.core.Context"
+		scope="prototype"></bean>
+	<bean id="PRJContext" class="com.xelerate.app.Context"
+		scope="prototype"></bean>	
+    <bean id="WEBContext" class="com.xelerate.web.Context"
+		scope="prototype"></bean>
+    <bean id="RESTContext" class="com.xelerate.rest.Context"
+		scope="prototype"></bean>
+    <bean id="XDMContext" class="com.xelerate.xdm.Context"
+		scope="prototype"></bean>
+    <bean id="BEContext" class="com.xelerate.be.core.Context"
+		scope="prototype"></bean>	
+		
+		
+	<!-- Logger -->
+	<bean id="loggerBean" class="com.xelerate.log.log4j.Log4jLogger"
+		scope="prototype"></bean>
+	<bean id="kafkaSender" class="com.xelerate.log.kafka.Sender"
+		scope="prototype"></bean>
+
+	<!-- Login -->
+	<bean id="createUser" class="com.xelerate.sms.api.CreateUser"
+		scope="prototype"></bean>
+	<bean id="modifyUser" class="com.xelerate.sms.api.ModifyUser"
+		scope="prototype"></bean>
+
+
+	<bean id="login" class="com.xelerate.sms.api.Login"
+		scope="prototype"></bean>
+	<bean id="logout" class="com.xelerate.sms.api.Logout"
+		scope="prototype"></bean>
+	<bean id="changePassword"
+		class="com.xelerate.sms.api.ChangePassword" scope="prototype"></bean>
+	<bean id="resetPassword"
+		class="com.xelerate.sms.api.ResetPassword" scope="prototype"></bean>
+
+	<bean id="saveUserPrefs"
+		class="com.xelerate.sms.api.SaveUserPrefs" scope="prototype"></bean>
+	<bean id="getUserPrefs" class="com.xelerate.sms.api.GetUserPrefs"
+		scope="prototype"></bean>
+	<bean id="getUserNotifs"
+		class="com.xelerate.sms.api.GetUserNotifs" scope="prototype"></bean>
+	<bean id="userProjects" class="com.xelerate.sms.api.UserProjects"
+		scope="prototype"></bean>
+	<bean id="becustomerQuery" class="com.xelerate.customer01.be.api.BeCustomerQueryApi" scope="prototype"></bean>
+<bean id="becustomerCreate" class="com.xelerate.customer01.be.api.BeCustomerCreateApi" scope="prototype"></bean>
+<bean id="becustomerModify" class="com.xelerate.customer01.be.api.BeCustomerModifyApi" scope="prototype"></bean>
+<bean id="becustomerDelete" class="com.xelerate.customer01.be.api.BeCustomerDeleteApi" scope="prototype"></bean>
+	
+	
+
+</beans> 

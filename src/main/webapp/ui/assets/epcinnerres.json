@@ -1,0 +1,359 @@
+{
+	"errorList": [],
+	"context": {
+	  "validationContext": {
+		"failFast": false
+	  },
+	  "operation-mode": "DEFAULT",
+	  "context-parameters": {},
+	  "in-out-correlation": ""
+	},
+	"xLobWithBaseEntity": [
+	  {
+		"xbaseEntityCount": 8,
+		"xlobName": "Agricultural Banking",
+		"xlobCode": "ACT",
+		"xlistOfBaseEntities": [
+		  {
+			"catalogueCount": 8,
+			"baseEntityType": "P",
+			"baseEntityName": "Farm Loan",
+			"baseEntityCode": "FRMLN01"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Gold Loan",
+			"baseEntityCode": "GLDLN01"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Recurring Desposits",
+			"baseEntityCode": "B33"
+		  }
+		]
+	  },
+	  {
+		"xbaseEntityCount": 6,
+		"xlobName": "Agricultural Banking Dummy",
+		"xlobCode": "ACT1",
+		"xlistOfBaseEntities": [
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Recurring Desposits",
+			"baseEntityCode": "B33"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Bp2333",
+			"baseEntityCode": "Bp2333"
+		  }
+		]
+	  },
+	  {
+		"xbaseEntityCount": 9,
+		"xlobName": "Cards",
+		"xlobCode": "C",
+		"xlistOfBaseEntities": [
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Virtual Cards",
+			"baseEntityCode": "VC"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Recurring Desposits",
+			"baseEntityCode": "B33"
+		  }
+		]
+	  },
+	  {
+		"xbaseEntityCount": 5,
+		"xlobName": "Credit Cards",
+		"xlobCode": "L4",
+		"xlistOfBaseEntities": [
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Virtual Cards",
+			"baseEntityCode": "VC"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Recurring Desposits",
+			"baseEntityCode": "B33"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Cash Back Cards",
+			"baseEntityCode": "B6"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Travel Cards",
+			"baseEntityCode": "B7"
+		  }
+		]
+	  },
+	  {
+		"xbaseEntityCount": 2,
+		"xlobName": "Debit Cards",
+		"xlobCode": "L90",
+		"xlistOfBaseEntities": [
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Recurring Desposits",
+			"baseEntityCode": "B33"
+		  }
+		]
+	  },
+	  {
+		"xbaseEntityCount": 10,
+		"xlobName": "Insurances",
+		"xlobCode": "L1",
+		"xlistOfBaseEntities": [
+		  {
+			"catalogueCount": 33,
+			"baseEntityType": "P",
+			"baseEntityName": "Prepaid Cards",
+			"baseEntityCode": "PC"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Recurring Desposits",
+			"baseEntityCode": "B33"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Health Insurance",
+			"baseEntityCode": "B8"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Life Insurance",
+			"baseEntityCode": "B1"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Home Insurance",
+			"baseEntityCode": "B10"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Travel Insurance",
+			"baseEntityCode": "B12"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Pet Insurance",
+			"baseEntityCode": "B13"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "B88 Latest",
+			"baseEntityCode": "B88"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "BP1111",
+			"baseEntityCode": "BP1111"
+		  }
+		]
+	  },
+	  {
+		"xbaseEntityCount": 3,
+		"xlobName": "Investments",
+		"xlobCode": "L2",
+		"xlistOfBaseEntities": [
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Recurring Desposits",
+			"baseEntityCode": "B33"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "BP1111",
+			"baseEntityCode": "BP1111"
+		  }
+		]
+	  },
+	  {
+		"xbaseEntityCount": 2,
+		"xlobName": "L1 Test",
+		"xlobCode": "L_TEST1",
+		"xlistOfBaseEntities": [
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Recurring Desposits",
+			"baseEntityCode": "B33"
+		  }
+		]
+	  },
+	  {
+		"xbaseEntityCount": 2,
+		"xlobName": "L1 Test1",
+		"xlobCode": "L_TEST2",
+		"xlistOfBaseEntities": [
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Recurring Desposits",
+			"baseEntityCode": "B33"
+		  }
+		]
+	  },
+	  {
+		"xbaseEntityCount": 2,
+		"xlobName": "L3 Test",
+		"xlobCode": "L_TEST4",
+		"xlistOfBaseEntities": [
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Recurring Desposits",
+			"baseEntityCode": "B33"
+		  }
+		]
+	  },
+	  {
+		"xbaseEntityCount": 2,
+		"xlobName": "L3 Test1",
+		"xlobCode": "L3 Test",
+		"xlistOfBaseEntities": [
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Recurring Desposits",
+			"baseEntityCode": "B33"
+		  }
+		]
+	  },
+	  {
+		"xbaseEntityCount": 2,
+		"xlobName": "L3 Test2",
+		"xlobCode": "L_TEST3",
+		"xlistOfBaseEntities": [
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Recurring Desposits",
+			"baseEntityCode": "B33"
+		  }
+		]
+	  },
+	  {
+		"xbaseEntityCount": 2,
+		"xlobName": "L_TEST1L_TEST1L_TEST1",
+		"xlobCode": "L_TEST9",
+		"xlistOfBaseEntities": [
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Recurring Desposits",
+			"baseEntityCode": "B33"
+		  }
+		]
+	  },
+	  {
+		"xbaseEntityCount": 6,
+		"xlobName": "Loans And Mortgages",
+		"xlobCode": "L3",
+		"xlistOfBaseEntities": [
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Recurring Desposits",
+			"baseEntityCode": "B33"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Housing Loans",
+			"baseEntityCode": "B2"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Personal Loans",
+			"baseEntityCode": "B5"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Vehicle Loans",
+			"baseEntityCode": "B4"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "B1_updated",
+			"baseEntityCode": "B99"
+		  }
+		]
+	  },
+	  {
+		"xbaseEntityCount": 7,
+		"xlobName": "Personal Banking",
+		"xlobCode": "LOB1",
+		"xlistOfBaseEntities": [
+		  {
+			"catalogueCount": 23,
+			"baseEntityType": "P",
+			"baseEntityName": "Recurring Desposits",
+			"baseEntityCode": "B3"
+		  },
+		  {
+			"catalogueCount": 5,
+			"baseEntityType": "P",
+			"baseEntityName": "Savings",
+			"baseEntityCode": "B11"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Every Day Account",
+			"baseEntityCode": "B111"
+		  },
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Recurring Desposits",
+			"baseEntityCode": "B33"
+		  }
+		]
+	  },
+	  {
+		"xbaseEntityCount": 2,
+		"xlobName": "Test LOB",
+		"xlobCode": "L23",
+		"xlistOfBaseEntities": [
+		  {
+			"catalogueCount": 0,
+			"baseEntityType": "P",
+			"baseEntityName": "Recurring Desposits",
+			"baseEntityCode": "B33"
+		  }
+		]
+	  }
+	]
+  }
