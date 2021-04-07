@@ -18,7 +18,7 @@ import com.xelerate.customer01.be.ent.BeCustomerEnt;
 import com.xelerate.customer01.be.xdm.db.ent.BeCustomerDb;
 import com.xelerate.customer01.be.ent.BeCustomerEntMapper;
 import com.xelerate.customer01.be.ent.BeCustomerEntVals;
-//preetish k das.99
+//preetish k das.99.00
 public class BeCustomerCreateApi implements APIIface {
   private BeCustomerEnt be = new BeCustomerEnt();
   private BeCustomerEntVals vl = new BeCustomerEntVals();
