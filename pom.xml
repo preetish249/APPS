@@ -7,7 +7,7 @@
 	<packaging>war</packaging>
 	<version>1.0.0</version>
 	<name>Customer01</name>
-<!-- Test1.2 -->
+<!-- Test1.3 -->
 	<description>>Customer01</description>
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
